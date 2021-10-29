@@ -1,0 +1,114 @@
+[
+    {
+        "key": 1001,
+        "image": "https://i.postimg.cc/8P65GTTV/ahsan-manjil.jpg",
+        "name": "Old Dhaka Tour",
+        "Duration": "1 Day",
+        "type": "Sightseeing Tours",
+        "Transportation": "Air-conditioned vehicles, Rickshaw and Boat",
+        "Accommodation" : "NO Accommodation",
+        "Descriptions" : "Old Dhaka refers to the historic old city of Dhaka. In the old Dhaka tour package, you will explore the history of the city of Dhaka. The city name previously spelled as Dacca before 1982 which was an urban settlement dating back to the 7th century on the banks of the Buriganga River (Old Ganges) now is the most vibrant and chaotic place in the Dhaka Metropolitan Area. Main key attractions are Sadarghat (Main river terminal), Ahsan Manzil (Pink Place), Islampur Cloth Market (the biggest cloth market in Bangladesh), Shakhari Bazaar (conch musical instrument makers), Armenian Church, Star Mosque, Lalbagh Fort, Khan Mohammad Mridha Mosque, Dhakeswari Temple, and National Parliament Building in new Dhaka. The most interesting Activities are Boat Ride on the Buriganga River and Rikshaw Ride throughout the Buggiest and Narrowest streets.",
+        "Details" : "All of these places are recommended by various travel books and websites like Lonely Planet and TripAdvisor. If you do this tour you will be experience Bangladeshi Culture, heritage, daily life activities, and finally the big hustle and bustle of Dhaka.",
+        "Cost" : 250,
+        "Location": "Dhaka, Bangladesh"
+
+    },
+    {
+        "key": 1002,
+        "image": "https://i.postimg.cc/dQX1ghPB/ancient-civilization.jpg",
+        "name": "Ancient Civilization Tour",
+        "Duration": "3 days",
+        "type": "Religious Heritage",
+        "Transportation": "Air-conditioned car, Boat",
+        "Accommodation" : "Hotel",
+        "Descriptions" : "It is said that Gautama Buddha once came to this region to spread Buddhism. Because of its geographical location since ancient times the entire region of Bengal, including the Somapura Mahavihara has become one of the vital links between India and Southeast Asia. According to the numismatics Sompur Buddhist Bihar was built in the 8th century by the second Pala king Dharmapala (781-821 AD) of the Pala Empire. This Great Monastery was a renowned intellectual center until the 17th century. The monastery is distinguished by its unique artistic achievement. The terracotta plaques of musicians, snake charmers and animals decorate the outer walls of the temple depicting the life of common people who lived a thousand years ago. In addition to a large number of Stupas and shrines of various sizes and shapes, terracotta plaques, stone sculptures, inscriptions, coins, ceramics and many more have been discovered during excavation. It was designated as a UNESCO World Heritage Site in 1985",
+        "Details" : "Mahasthangarh (Mohasthangor) was the provincial capital from the mighty Maurya, Gupta to the Sena dynasty period. It represents the earliest and the largest archaeological site in Bangladesh consists of the ruins of the ancient city of Pundranagara. The city was probably founded by the Maurya Empire in the 3rd century BC. Many travelers, archeologist and scholars like Chinese pilgrim Xuanzang (Hiuen Tsang) visited this affluent city in the 7th century AD. Later Francis Buchanan Hamilton (a Scottish geographer), O’Donnell, Westmacott, William Beveridge and Sir Alexander Cunningham visited this site and mentioned it in their reports. Various monasteries are scattered throughout the vast area outside of the main citadel. Among them, Govinda Bhita, Bairagir Bhita, Khodar Pathar Bhita, Parasuram Palace, Godaibari Dhap, Noropotir Dhap, Gokul Medh (Lokhindorer Bashor Ghor), Bhasu Bihar (Narapatir Dhap) are most significant and remarkable sites.",
+        "Cost" : 1160,
+        "Location": "Dhaka, Bogra, Naogaon"
+
+    },
+    {
+        "key": 1003,
+        "image": "https://i.postimg.cc/nhfLcNL9/cox-bazar.jpg",
+        "name": "Exploring Cox’s Bazar",
+        "Duration": "6 days",
+        "type": "Hiking and Walking",
+        "Transportation": "Air-conditioned vehicles, Trains, Ship, Boat, Air",
+        "Accommodation" : "Hotel",
+        "Descriptions" : "Cox’s Bazar Sea Beach is the longest natural sandy beach in the world. The beach has a gentle slope with unbroken length and stretches to 155 Kilometers (96 miles) and this is the most visited tourist destination in Bangladesh. By popular choice, Cox’s Bazar has recently been ranked as one of the ‘New Seven Wonders of the World’. It is the most developed of any tourist destination in Bangladesh and you will find tourist facilities there better than anywhere outside Dhaka but please do not expect it to be as posh as some other popular beach destinations like southern Thailand. The area around the beach is home to nearly 8,000 different kinds of flora and fauna. The waters hold a plethora of sea life creatures including jellyfish, starfish, numerous fish species and also two different types of rare sea turtles.",
+        "Details" : "St. Martin’s Island (Narikel Jinjira or Daruchini Dwip) is the only coral island in Bangladesh, located in the southern Bay of Bengal very close to the Myanmar border. It is the right place to relax and calm your soul. Many poets call Saint Martin’s Island a piece of heaven on earth. The phrase rightly describes the almost indescribable beauty of Bangladesh’s only coral island. Its dunes and a long beach studded with natural sandstones, shoreline full of colorful corals, umbrella tree (Pandanus odorifer) trees and coconut groves that seem to have turned it into a piece of heaven.",
+        "Cost" : 2600,
+        "Location": "Cox-Bazar, Bangladesh"
+
+    },    
+    {
+        "key": 1004,
+        "image": "https://i.postimg.cc/ht8tJMJy/national-museum.jpg",
+        "name": "Dhaka Museum Tour",
+        "Duration": "1 day",
+        "type": "Museums / Culture",
+        "Transportation": "Air-conditioned vehicles",
+        "Accommodation" : "NO Accommodation",
+        "Descriptions" : "Bangladesh National Museum (BNM) is one of the biggest museums in south Asia. The museum is well organized and devoted to archaeological artifacts, decorative and contemporary arts, interpretative display of historical documents, ethnography and world civilization. This museum officially known as Bangladesh Jatiya Jadughar, located in the suburbs of Dhaka called Shahbag.",
+        "Details" : "The Independence Museum (IM) is located at Suhrawardy Udyan in Dhaka. It is a war museum focused on the collection, preservation, the display comprises of large numbers of historical photographs ranging from the Mughal period to the Liberation War, which bears the signature of Bengali nation. Terracotta, pictures and paper clippings of the war of liberation are on display at the museum. Also, there are photographs of some archeological sites in Bangladesh. Copies of foreign newspapers and reports showing different events of the war of liberation are also kept in the gallery as are other materials related to the Bangladesh Liberation War which was held in 1971 against Pakistan and killed more than 3 million Bangladeshi peoples.",
+        "Cost" : 250,
+        "Location": "Dhaka, Bangladesh"
+
+    },
+    {
+        "key": 1005,
+        "image": "https://i.postimg.cc/HLpsb5Xp/ship-breaking.jpg",
+        "name": "Chittagong Ship Breaking Yard Tour",
+        "Duration": "1 day",
+        "type": "Sightseeing Tours",
+        "Transportation": "Air-conditioned vehicles",
+        "Accommodation" : "NO Accommodation",
+        "Descriptions" : "The Chittagong shipbreaking yard is the final resting place (ship graveyard) of large commercial vessels from all over the world. Old ships are purchased and then decommissioned by workers who salvage what they can before reducing these great monsters into piles of scrap metal.",
+        "Details" : "A controversial place, for a number of environmental and labor issues, many foreign tourists wish to visit and see for themselves. The yards and workers there were famously photographed by renowned photographer Sebastião Salgado and featured in his photo book ‘Workers’.",
+        "Cost" : 180,
+        "Location": "Chittagong shipbreaking yard"
+
+    },
+    {
+        "key": 1006,
+        "image": "https://i.postimg.cc/9Mkm3nSM/srimangal.jpg",
+        "name": "Srimangal Adventure Tour",
+        "Duration": "3 days",
+        "type": "Nature and Wildlife",
+        "Transportation": "AC Car, Train, Tuk-tuk, 4×4 Car",
+        "Accommodation" : "Hotel",
+        "Descriptions" : "Srimangal Adventure Tour is specially designed for exploring the tea capital of Bangladesh. Srimangal is located Northeast region of Bangladesh and is one of the most beautiful and scenic places in our country. There are 47 tea gardens in Srimangal, that’s why it is known as the tea capital of Bangladesh. It’s a green vegetation area where birds are always chirping. A large portion of the world’s highest quality tea is grown here. It is also called the city of ‘two leaves and a bud. Nature has adorned Srimangal with green trees and it soothes one’s eyes.",
+        "Details" : "In Srimangal Adventure Tour, you can discover Tea garden, Rubber garden, Pineapple garden, Lemon garden, Tribal village (Khasi and Manipuri tribe), Wildlife including endangered western Hoolock Gibbons, Barking Deer, Python, Spit Viper, Loris, King Cobra, Pig-tailed Macaque, Phayre’s leaf monkey (Chosma Pora Hanuman), Capped langur monkey, Fishing cat, Wildcat and many types of Spider and Butterfly. Also, you will trek through forests and hills to discover Ham Ham Waterfall.",
+        "Cost" : 1250,
+        "Location": "Dhaka, Srimangal, Lawachara National Park"
+
+    },
+    {
+        "key": 1007,
+        "image": "https://i.postimg.cc/SsRSvhg3/sundarbans.jpg",
+        "name": "Tour The Sundarbans",
+        "Duration": "4 days",
+        "type": "Nature and Wildlife",
+        "Transportation": "Air-conditioned car, Flight, Boat",
+        "Accommodation" : "Hotel, Sleeping Cabin on Houseboat",
+        "Descriptions" : "This four-day tour is the best opportunity to visit 2 of Bangladesh’s UNESCO world heritage sites, the Mosque City of Bagerhat and the mangrove forest of Sundarbans.  Start the tour by flying to Jessore to visit the Mosque City of Bagerhat. Then spend three days exploring Sundarbans, the largest mangrove forest on earth. On the fourth day fly back to Dhaka.",
+        "Details" : "Start in the morning by flying from Dhaka to Jessore.  Then drive to Bagerhat and visit the 15th-century Muslim city also known as Khalifatabad, a UNESCO world heritage site, before arriving in Khulna for the evening. Travel to Mongla the next morning and spend three days exploring Sundarbans, a UNESCO World Heritage Site and home to Royal Bengal Tigers, monkeys, saltwater crocodiles, sweet water dolphins and a variety of birds. On the fourth day return to Jessore and take an evening flight back to Dhaka.",
+        "Cost" : 1820,
+        "Location": "Sundarbans, Khulna"
+
+    },
+    {
+        "key": 1008,
+        "image": "https://i.postimg.cc/Pq2fyxQ1/sylhet.jpg",
+        "name": "Sylhet Tour",
+        "Duration": "4 Days",
+        "type": "Nature and Wildlife",
+        "Transportation": "AC Car, Train, Tuk-tuk, 4×4 Car, Boat, Air",
+        "Accommodation" : "Hotel",
+        "Descriptions" : "Sylhet Tour! Sylhet is called the second ‘London’ of Bangladesh and is known as spiritual capital. Situated northeast of Bangladesh, it boasts lush greenery, enormous tea plantations, blue rivers, forests, and historical buildings. Sylhet is home to many species of wildlife, swamp forest, marsh wetland, a stone quarry, and many spiritual Shrines.",
+        "Details" : "Additionally, between the Khasi and the Jaintia hills, you’ll find the homes of the Monipuri Tribe, whose maidens are famous for their dance. There are many aboriginal tribes including the Monipuris, the Tipperas, Khasis and Garos who still live their primal ways in the hills. For those who are adventurous travelers and nature lovers, the Sylhet tour is a great tour!",
+        "Cost" : 820,
+        "Location": "Dhaka, Sylhet"
+    }
+
+]
