@@ -1,24 +1,17 @@
 import React from 'react'
-import { useState } from 'react'
-import { useEffect } from 'react'
 import useAuth from '../../hooks/useAuth';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import BackToHome from '../../components/BackBtn/BackToHome'
+import useAllBooking from '../../hooks/useAllBooking';
 
 const MyBooking = () => {
-    const [allOrder, setAllOrder] = useState([]);
     const { user } = useAuth()
-    useEffect(() => {
-        fetch('https://immense-tor-72446.herokuapp.com/booking-data')
-            .then(res => res.json())
-            .then(data => setAllOrder(data))
-    }, [])
+    // import hook for all booking data
+    const [allOrder] = useAllBooking()
+
 
     const myOrder = allOrder.filter(item => item.email === user.email);
-    console.log("My order", myOrder);
-
-
     const deleteBooking = id => {
         const proceed = window.confirm("are You Sure Want to Delete Your Tour Packages")
         if (proceed) {

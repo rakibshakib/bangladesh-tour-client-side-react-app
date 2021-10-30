@@ -16,6 +16,8 @@ import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import MyBooking from './pages/MyBooking/MyBooking';
 import Footer from './components/Footer/Footer';
+import ManageBooking from './pages/ManageBooking/ManageBooking';
+import AddNewPackage from './pages/AddNewPackage/AddNewPackage';
 function App() {
   return (
     <div className="App">
@@ -36,6 +38,14 @@ function App() {
             <PrivateRoute exact path='/my-booking'>
               <MyBooking />
             </PrivateRoute>
+            <PrivateRoute exact path='/manage-booking'>
+              <ManageBooking />
+            </PrivateRoute>
+
+            <PrivateRoute exact path='/add-package'>
+              <AddNewPackage />
+            </PrivateRoute>
+
             <PrivateRoute exact path='/bookingpackage/:id'>
               <BookingPackage />
             </PrivateRoute>

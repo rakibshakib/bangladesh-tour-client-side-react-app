@@ -17,10 +17,11 @@ const BookingPackage = () => {
         fetch(url).then(res => res.json()).then(data => setTourPackage(data))
     }, [id])
     const {name, image, Details, Descriptions, Cost, type, Location, Accommodation, Duration, Transportation } = tourPackage;
+
     const onSubmit = data => {
         data.tourName = name;
         data.bookingID = id; 
-        fetch('http://localhost:5000/booking', {
+        fetch('https://immense-tor-72446.herokuapp.com/booking', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
@@ -72,6 +73,7 @@ const BookingPackage = () => {
                             <input  defaultValue="Pending" {...register("status")} className='border py-2 md:ml-5 px-5 mt-2 text-green-700 font-medium' readOnly />
                         </div>
                         <input type="submit" className='border-2 py-2 md:ml-5 px-5 mt-4 cursor-pointer bg-green-700 rounded-md text-white hover:bg-white hover:text-green-700 transition delay-75 duration-300 ease-in-out' value="Confirm Booking" />
+                    
                     </form>
                 </div>
                 {/* package details */}

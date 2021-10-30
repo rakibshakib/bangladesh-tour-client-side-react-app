@@ -35,6 +35,7 @@ const NavBar = () => {
                         <NavLink className='nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/allpackages"><span>All Tour Packages</span></NavLink>
                         <NavLink className=' nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/my-booking"><span>My Booking</span></NavLink>
                         <NavLink className='nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/manage-booking"><span>Manange Booking</span></NavLink>
+                        <NavLink className='nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/add-package"><span>Add New Package</span></NavLink>
 
                         {
                             user.email ? <button onClick={logOutUser} className='nav-items rounded-md py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-ou hover:bg-green-700 hover:text-white'><BiLogOutCircle className='inline-block' /> Sign Out</button>
