@@ -76,7 +76,7 @@ const useFireBase = () => {
             }
             setIsloading(false)
         });
-    }, [])
+    }, [auth])
     setTimeout(() => {
         setError('')
     }, 6000)

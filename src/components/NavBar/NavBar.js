@@ -1,11 +1,18 @@
-import React from 'react'
-import { BsFacebook, AiOutlineTwitter, FiInstagram, FaTumblrSquare, AiOutlinePhone, AiOutlineLogin, BiLogOutCircle } from "react-icons/all";
+import React, { useState } from 'react'
+import { BsFacebook, AiOutlineTwitter, FiInstagram, FaTumblrSquare, AiOutlinePhone, AiOutlineLogin, BiLogOutCircle, FaBars } from "react-icons/all";
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
-import logo from '../../images/tour.png'
+import logo from '../../images/tour.png';
+import './Navbar.css'
 
 const NavBar = () => {
-    const { user, logOutUser } = useAuth()
+    const { user, logOutUser } = useAuth();
+    // button toogle hooks 
+    const [toggle, setToogle] = useState(false);
+    // toogle button handeler 
+    const handleToggle = () => {
+        setToogle(toggle => !toggle)
+    }
     return (
         <nav>
             {/* header details */}
@@ -36,17 +43,39 @@ const NavBar = () => {
                         <NavLink className=' nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/my-booking"><span>My Booking</span></NavLink>
                         <NavLink className='nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/manage-booking"><span>Manange Booking</span></NavLink>
                         <NavLink className='nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/add-package"><span>Add New Package</span></NavLink>
-
                         {
                             user.email ? <button onClick={logOutUser} className='nav-items rounded-md py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-ou hover:bg-green-700 hover:text-white'><BiLogOutCircle className='inline-block' /> Sign Out</button>
                                 :
                                 <NavLink className='nav-items py-3 px-2 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/signin"><AiOutlineLogin className='inline-block' /> Sign In</NavLink>
                         }
-
                     </div>
                 </div>
-            </div>
-        </nav>
+                {/* for mobile responsive */}
+
+                <div className="mobile-nav">
+                    <div className='text-black text-md py-2 font-medium flex items-center justify-between'>
+                        <figure>
+                            <img src={logo} alt="bangladesh tour service" />
+                        </figure>
+                        <button onClick={handleToggle} className='text-2xl toggle border-2 border-gray-100 py-2 px-3 rounded-md'><FaBars /></button>
+                    </div>
+                    <div className={`nav-link responsive-nav ${toggle ? 'show-navs' : 'hide-navs'} flex flex-col justify-center items-center mt-5`}>
+                        <NavLink className='nav-items py-3 px-3' to="/"><span>Home</span></NavLink>
+                        <NavLink className='nav-items py-3 px-3' to="/allpackages"><span>All Tour Packages</span></NavLink>
+                        <NavLink className=' nav-items py-3 px-3' to="/my-booking"><span>My Booking</span></NavLink>
+                        <NavLink className='nav-items py-3 px-3' to="/manage-booking"><span>Manange Booking</span></NavLink>
+                        <NavLink className='nav-items py-3 px-3' to="/add-package"><span>Add New Package</span></NavLink>
+                        {
+                            user.email ? <button onClick={logOutUser} className='nav-items rounded-md py-3 px-3'><BiLogOutCircle className='inline-block' /> Sign Out</button>
+                                :
+                                <NavLink className='nav-items py-3 px-2' to="/signin"><AiOutlineLogin className='inline-block' /> Sign In</NavLink>
+                        }
+                    </div>
+                </div>
+            
+        </div>
+
+        </nav >
     )
 }
 

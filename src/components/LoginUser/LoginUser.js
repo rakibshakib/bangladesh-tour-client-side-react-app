@@ -16,8 +16,12 @@ const LoginUser = () => {
         googleSignIn()
             .then((result) => {
                 const user = result.user;
+                const {displayName, email} = user;
+                localStorage.setItem('auth-user', JSON.stringify({username: displayName, userEmail: email}))
                 setUser(user);
-                history.push(redirect_uri)
+                history.push(redirect_uri);
+
+                console.log("user,", user)
                 setError('')
             })
             .catch((error) => {

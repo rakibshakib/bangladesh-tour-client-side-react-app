@@ -36,8 +36,6 @@ const BookingPackage = () => {
             })
     };
 
-
-
     return (
         <div className='container mx-auto'>
             <h2 className='text-green-700 text-center font-semibold text-2xl py-5'>Booking Your Favourite Tour Package</h2>
