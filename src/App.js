@@ -14,6 +14,8 @@ import LoginUser from './components/LoginUser/LoginUser';
 import RegisterUser from './components/RegisterUser/RegisterUser'
 import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import MyBooking from './pages/MyBooking/MyBooking';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -31,10 +33,13 @@ function App() {
               <AllPackages />
             </Route>
             {/* private route */}
+            <PrivateRoute exact path='/my-booking'>
+              <MyBooking />
+            </PrivateRoute>
             <PrivateRoute exact path='/bookingpackage/:id'>
               <BookingPackage />
             </PrivateRoute>
-            
+
             <Route exact path='/signin'>
               <LoginUser />
             </Route>
@@ -45,6 +50,7 @@ function App() {
               <NotFound />
             </Route>
           </Switch>
+          <Footer />
         </Router>
       </AuthProvider>
     </div>
