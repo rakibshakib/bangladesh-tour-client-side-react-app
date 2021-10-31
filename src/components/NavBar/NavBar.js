@@ -17,16 +17,16 @@ const NavBar = () => {
         <nav>
             {/* header details */}
             <div className='flex flex-col md:flex-row justify-between items-center container mx-auto'>
-                <div className='flex justify-between items-center text-xl font-medium'>
+                <div className='flex justify-between items-center text-xl font-medium py-2'>
                     <BsFacebook className='text-gray-500 cursor-pointer hover:text-green-700' />
                     <AiOutlineTwitter className='text-gray-500 ml-3 cursor-pointer hover:text-green-700' />
                     <FiInstagram className='text-gray-500 ml-3 cursor-pointer hover:text-green-700' />
                     <FaTumblrSquare className='text-gray-500 ml-4 cursor-pointer hover:text-green-700' />
                 </div>
-                <div className='flex justify-between py-2 px-5 items-center text-xl font-medium bg-green-700 text-white'>
+                <div className='py-2 px-5 text-center text-xl font-medium bg-green-700 text-white'>
                     <h2>Best Tour Operator in Bangladesh</h2>
                 </div>
-                <div className='text-gray-500 cursor-pointer'>
+                <div className='text-gray-500 cursor-pointer py-2'>
                     <p className='flex justify-between items-center text-xl font-semibold hover:text-green-700'><AiOutlinePhone /> <span className='ml-2' >+88 012345678910</span></p>
                 </div>
             </div>

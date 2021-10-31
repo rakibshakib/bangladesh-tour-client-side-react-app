@@ -20,7 +20,7 @@ const TourPackages = () => {
                             <CircularProgress color="success" /> <span>Data Loading..</span>
                         </Stack>
                     </div> :
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-5 mx-8 justify-items-center">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-5 md:mx-5 justify-items-center">
                             {
                                 packages.slice(2, 8).map(item => <Packages key={item.key} item={item} />)
                             }
