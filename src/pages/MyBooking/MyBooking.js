@@ -3,6 +3,7 @@ import useAuth from '../../hooks/useAuth';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import BackToHome from '../../components/BackBtn/BackToHome'
+import PopularTour from '../../components/PopularTour/PopularTour';
 
 const MyBooking = () => {
     const { user } = useAuth()
@@ -76,6 +77,7 @@ const MyBooking = () => {
                 </div>
 
             </div>
+            <PopularTour/>
             <BackToHome />
         </div>
     )
