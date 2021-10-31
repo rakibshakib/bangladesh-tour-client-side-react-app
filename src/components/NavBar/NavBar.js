@@ -44,6 +44,9 @@ const NavBar = () => {
                         <NavLink className='nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/manage-booking"><span>Manange Booking</span></NavLink>
                         <NavLink className='nav-items py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/add-package"><span>Add New Package</span></NavLink>
                         {
+                            user?.email && <p className='inline-block mr-5 font-medium border-b-2 px-2 '>{user.displayName}</p>
+                        }
+                        {
                             user.email ? <button onClick={logOutUser} className='nav-items rounded-md py-3 px-3 ml-5 transition delay-75 duration-300 ease-in-ou hover:bg-green-700 hover:text-white'><BiLogOutCircle className='inline-block' /> Sign Out</button>
                                 :
                                 <NavLink className='nav-items py-3 px-2 ml-5 transition delay-75 duration-300 ease-in-out hover:bg-green-700 hover:text-white' to="/signin"><AiOutlineLogin className='inline-block' /> Sign In</NavLink>
@@ -65,6 +68,9 @@ const NavBar = () => {
                         <NavLink className=' nav-items py-3 px-3' to="/my-booking"><span>My Booking</span></NavLink>
                         <NavLink className='nav-items py-3 px-3' to="/manage-booking"><span>Manange Booking</span></NavLink>
                         <NavLink className='nav-items py-3 px-3' to="/add-package"><span>Add New Package</span></NavLink>
+                        {
+                            user?.email && <p className='inline-block font-medium border-b-2 px-2 '>{user.displayName}</p>
+                        }
                         {
                             user.email ? <button onClick={logOutUser} className='nav-items rounded-md py-3 px-3'><BiLogOutCircle className='inline-block' /> Sign Out</button>
                                 :
