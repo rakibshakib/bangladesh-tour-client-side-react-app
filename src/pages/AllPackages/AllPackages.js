@@ -1,6 +1,7 @@
 import { CircularProgress, Stack } from '@mui/material'
 import React from 'react'
 import Packages from '../../components/Packages/Packages'
+import Reviews from '../../components/Reviews/Reviews'
 import usePackages from '../../hooks/usePackages'
 
 const AllPackages = () => {
@@ -24,6 +25,8 @@ const AllPackages = () => {
                     </div>
 
             }
+            <hr />
+            <Reviews />
         </div>
     )
 }
