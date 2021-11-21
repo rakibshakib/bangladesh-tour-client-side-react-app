@@ -71,12 +71,6 @@ const AddNewPackage = () => {
                     <div>
                     <input type="submit" className='border-2 py-2 md:ml-5 px-5 mt-4 cursor-pointer bg-green-700 rounded-md text-white hover:bg-white hover:text-green-700 transition delay-75 duration-300 ease-in-out' value="Add Packages " />
                     </div>
-                   
-                   
-                    
-
-
-                 
                 </form>
             </div>
         </div>

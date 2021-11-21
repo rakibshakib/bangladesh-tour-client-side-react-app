@@ -11,6 +11,7 @@ const useFireBase = () => {
     const [error, setError] = useState('');
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
+    
     const [isLoading, setIsloading] = useState(true);
 
     const auth = getAuth();

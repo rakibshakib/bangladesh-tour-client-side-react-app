@@ -6,10 +6,10 @@ import BackToHome from '../../components/BackBtn/BackToHome'
 import PopularTour from '../../components/PopularTour/PopularTour';
 
 const MyBooking = () => {
-    const { user } = useAuth()
-    // get data by email 
+    
     const [myOrder, setMyOrder] = useState([])
-
+    // get data by email 
+    const { user } = useAuth()
     // get mybooking by email 
     useEffect(() => {
         fetch('https://immense-tor-72446.herokuapp.com/my-booking', {
@@ -21,6 +21,7 @@ const MyBooking = () => {
         }).then(res => res.json())
             .then(data => setMyOrder(data))
     }, [user.email])
+
 
 // my booking delete operation 
     const deleteBooking = id => {
